@@ -1,7 +1,7 @@
 #dynamic programming
 """
 Question->
-  find the longest common sub sequence of two sequences ans     return the `len` of it
+  find the longest common sub sequence of two sequences and return the `len` of it
  -> example
  -> [s,e,(r),(e),n,d,(i),(p),(i),(t),(o),u,s]
  -> [p,(r),(e),c,(i),(p),(i),(t),a,t,i,(o),n]
