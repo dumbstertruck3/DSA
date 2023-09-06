@@ -23,8 +23,8 @@ def lcsmemo(seq1,seq2):
 			return memo[key]
 		return recurse(0,0)
 		
-#dynamic programming solution
-def lcs_dp(seq1,seq2):
+#tabulation solution
+def lcs_tb(seq1,seq2):
 	n1,n2 = len(seq1+1),len(seq2+1)
 	table = [[0 for x in range(n2)] for x in range(n1)]
 	for i in range(n1):
